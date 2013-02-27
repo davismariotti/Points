@@ -1,0 +1,7 @@
+main: info.gomeow.points.Points
+version: 1.0.0
+author: gomeow
+
+commands:
+  points:
+    description: All Points commands
