@@ -96,6 +96,7 @@ public class Points extends JavaPlugin {
 								Util.savePoints();
 								PointEvent e = new PointEvent(args[1].toLowerCase(),points);
 								getServer().getPluginManager().callEvent(e);
+								return true;
 							}
 						}
 						else {
